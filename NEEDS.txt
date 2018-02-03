@@ -1,0 +1,18 @@
+INFORMATION NEEDED:
+** Authentication
+- id number
+- password
+
+** Submission
+- overview of project via video
+- screenshots of project
+- documentation
+- Mentor | Consultant | Stand-alone
+- co-developers (optional)
+
+ > categories
+ > technologies
+
+ 
+TOOLS TO USE:
+web starter kit

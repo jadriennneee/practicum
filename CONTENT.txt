@@ -1,0 +1,23 @@
+SCIShub/
+
+
+PURPOSE:
+- A website where it hosts SCIS' students' original works/projects
+- Serves as an inspiration for aspiring SCIS students who want to create their own work as well
+
+FEATURES:
+- indicates technologies used
+- tagging (categories: website, CLI, Mobile, creative works)
+- documentation
+- demo of project 
+- developers and creators
+- User Login 
+- Awards
+
+GOAL:
+- For inspiration
+- For awareness and support
+- avoid project redundancy
+
+ADDITIONAL FEATURE:
+- hosting of mobile apps
