@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.my-container{
+    height: 600px;
+}
+.my-row{
+    padding-top: 150px;
+}
+.my-col{
+    padding: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
