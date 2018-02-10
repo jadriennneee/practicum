@@ -1,11 +1,11 @@
 <?php
+session_start();
 /**
  * Created by PhpStorm.
  * User: erika
  * Date: 07/02/2018
  * Time: 10:28 AM
  */
-session_start();
     require('connect.php');
 
     if (isset($_POST['username']) and isset($_POST['password'])) {
@@ -24,6 +24,10 @@ session_start();
 
             echo "Hi, " . $_SESSION['username']. "
             " . "<br>";
+
+            $active = "UPDATE users SET active='1' WHERE username='$username'";
+            mysqli_query($link, $active);
+
             echo "<a href='logout.php'>Logout</a>";
         } else {
             echo "Invalid Login Credentials";

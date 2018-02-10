@@ -1,13 +1,19 @@
 <?php
+session_start();
+require('connect.php');
+
 /**
  * Created by PhpStorm.
  * User: erika
  * Date: 07/02/2018
  * Time: 10:41 AM
  */
-session_start();
-if (isset($_SESSION['$username'])) {
-    unset($_SESSION['$username']);
+if (isset($_SESSION['username'])) {
+    $username = $_SESSION['username'];
+
+    $active = "UPDATE users SET active='0' WHERE username='$username'";
+    mysqli_query($link, $active);
 }
-session_destroy();
+
+unset($_SESSION['username']);
 header('Location: login.html');

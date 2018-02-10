@@ -10,6 +10,7 @@
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
      </head>
      <body>
+
      <div class="container my-container">
            <div class="row my-row">
                <div class="col-md-4">
@@ -24,11 +25,11 @@
                    <form action="login.php" method="post">
                        <div class="form-group">
                          <label for="Username">Username</label>
-                         <input type="username" class="form-control" id="inputUsername"  placeholder="Enter Username">
+                         <input type="username" class="form-control" id="inputUsername"  name="username" placeholder="Enter Username">
                        </div>
                        <div class="form-group">
                          <label for="Password">Password</label>
-                         <input type="password" class="form-control" id="inputPassword" placeholder="Enter Password">
+                         <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Enter Password">
                        </div>
                        <button type="submit" class="btn btn-primary">Submit</button>
                      </form>
