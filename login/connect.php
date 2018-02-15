@@ -6,7 +6,7 @@
  * Time: 10:28 AM
  */
 
-$link = mysqli_connect('localhost:8889','root','root','demo');
+$link = mysqli_connect('localhost:8889','root','root','accounts');
 if (!$link) {
     die('Could not connect: ');
 }

@@ -11,7 +11,7 @@ require('connect.php');
 if (isset($_SESSION['username'])) {
     $username = $_SESSION['username'];
 
-    $active = "UPDATE users SET active='0' WHERE username='$username'";
+    $active = "UPDATE users SET active='0' WHERE id_number='$username'";
     mysqli_query($link, $active);
 }
 
