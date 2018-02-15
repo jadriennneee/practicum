@@ -5,7 +5,7 @@
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
        <!-- CSS -->
-       <link rel="stylesheet" href="styles/main.css">
+       <link rel="stylesheet" href="css/login.css">
        <!-- Bootstrap CSS -->
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
      </head>
@@ -18,20 +18,22 @@
                </div>
                <div class="col-md-4 my-col">
                    <div class="row">
-                       <div class="col-md-12">
-                           <h1>OJT PROJECT</h1>
+                     <div class="col-md-2"></div>
+                       <div class="col-md-8 text-center">
+                           <h1>SCISHub</h1>
                        </div>
+                       <div class="col-md-2"></div>
                    </div>
                    <form action="login.php" method="post">
                        <div class="form-group">
                          <label for="Username">Username</label>
-                         <input type="username" class="form-control" id="inputUsername"  name="username" placeholder="Enter Username">
+                         <input type="username" class="form-control" id="inputUsername"  name="username">
                        </div>
                        <div class="form-group">
                          <label for="Password">Password</label>
-                         <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Enter Password">
+                         <input type="password" class="form-control" id="inputPassword" name="password">
                        </div>
-                       <button type="submit" class="btn btn-primary">Submit</button>
+                       <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
                      </form>
                </div>
                <div class="col-md-4">
