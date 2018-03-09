@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Web Application | Prometheus Tech</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">SCISHUB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-md-5">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Web Application</a>
+                        <a class="dropdown-item" href="#">Mobile Application</a>
+                        <a class="dropdown-item" href="#">Desktop Application</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url('/highflyer') }}">High Flyer <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid banner-project">
+        <div class="row overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 mx-md-5">
+                        <h1 class="category-title">Prometheus Tech</h1>
+                    </div>
+                    <div class="col-md-5 devpic text-right">
+                        <img src="../images/people.png" class="rounded" alt="...">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fuid navigation">
+        <div class="container">
+            <div class="row">
+                    <ul class="nav nav-pills mb-3 mx-auto" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Project Specification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Narrative</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container content">
+                <div class="row">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active content" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="container">
+                                <div class="container">
+                                        <div class="row">
+                                        <div class="col-md-12 text-center">
+                                                    <!-- 16:9 aspect ratio -->
+                                             <div class="embed-responsive embed-responsive-21by9">
+                                                    <iframe width="1265" height="518" src="https://www.youtube.com/embed/LUiBMK_MVJs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row my-md-5">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-10 sc">
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="row my-md-5">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-10 sc2">
+                                               
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="container">
+                                <h3 class="techused">Technology used: <span>HML, CSS, Bootstrap</span></h3>
+                            </div>
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vel! Quas molestias nemo itaque ipsam, veritatis saepe perspiciatis! Omnis culpa, eveniet alias ex vitae perspiciatis hic? Minus, ipsa accusantium cum ut aliquam natus tenetur iure laudantium nam ad nulla minima. Eligendi, eum? Odio tempore accusamus ex esse dignissimos laboriosam incidunt quae perferendis recusandae. Labore eveniet facilis sit cumque quo iure eaque blanditiis ipsam repellat, similique laborum dicta rerum adipisci culpa molestias sunt officiis sint sequi quibusdam dolores doloribus saepe! Vero nesciunt reprehenderit aut harum repudiandae ratione, nam inventore possimus maxime fugit voluptatibus dolor non ab deleniti praesentium libero excepturi amet cumque minima, dolorum, illum blanditiis velit quod! Assumenda accusamus nisi quod! Id, aliquid non impedit dignissimos animi iste nostrum maiores eos quam repellat sunt sapiente hic inventore? Quas incidunt porro tempore. Commodi, voluptate. Possimus molestias iusto perspiciatis nam laboriosam. Dicta, at voluptates! Repellendus ad assumenda perspiciatis, error officiis quo explicabo eveniet atque harum alias, accusantium ipsam. Atque beatae vitae aperiam aut, ab fugit autem possimus in fuga quod. Nulla, adipisci! Perspiciatis accusamus quis vero eos, expedita sed quia dolor sequi consequuntur natus quo repellat odit reiciendis dignissimos et atque, minima, sit laboriosam facere error ipsam! Veniam in officiis amet nam magni quidem doloremque non, sit rem, quod eos, facilis repellat magnam? Qui quae nobis corrupti quam saepe odit facilis sed veritatis cum harum modi atque eaque fugiat voluptas incidunt natus praesentium necessitatibus dolorum molestias, itaque dignissimos ea temporibus porro. Expedita animi necessitatibus eius nesciunt optio quos officia doloribus eligendi sit fugit, dicta consequuntur eos ad ullam impedit reiciendis vero dolor omnis perferendis cumque rem voluptatibus aliquam pariatur itaque! Eum molestias totam amet, illo inventore incidunt et alias maxime cupiditate unde ex magni ratione autem tempora officia, similique in explicabo distinctio ad qui accusamus laudantium odio. Praesentium sint cum aliquid nulla perspiciatis eum expedita voluptatum ut rem dolor, voluptatem similique repudiandae, non, beatae adipisci. Necessitatibus, cupiditate illum? Culpa possimus, ducimus dolores amet aperiam iusto molestiae corrupti veniam inventore in deserunt doloremque eius ipsum sunt expedita libero laboriosam excepturi ut ex laudantium, ratione, atque similique nemo doloribus? Maxime fugit repellat dicta, et omnis libero cupiditate ipsam placeat quia perferendis quasi aliquid in aut ratione nihil nisi inventore mollitia eius aperiam, quae unde quis. Recusandae autem ab tenetur magnam aut rem optio cupiditate velit, reiciendis architecto perspiciatis quod sequi consequuntur voluptate inventore deserunt officiis laboriosam dolor! Quod, optio impedit numquam dolor ut hic?</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                           <div class="container">
+                                <h3 class="narrative">How the developer came up with the idea.</span></h3>
+                           </div>
+                           <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia qui voluptatem sint ipsa necessitatibus minima, pariatur voluptatum nemo excepturi aut repellendus, omnis fugiat in. Ad quaerat ipsam hic suscipit vel veniam corporis omnis doloribus ratione, commodi dolores voluptate esse id nesciunt, animi fugit vitae minima architecto nostrum voluptas est harum odio. Minus omnis est facere impedit odio magnam, recusandae laudantium, similique perferendis eum provident animi, rerum repudiandae voluptatum ipsum! Libero nesciunt obcaecati in at omnis optio illum aliquid nobis quam tempore corrupti, vitae alias odio? Dolorem placeat eveniet incidunt, expedita, dolorum quae in dolore at accusamus sequi, architecto quaerat rem omnis voluptate quasi magni adipisci illum minima nihil ipsum. Itaque ducimus magni voluptas quo placeat aperiam, voluptatem aut nemo laborum vitae voluptates cum et est ratione obcaecati assumenda nulla rem blanditiis facilis vel soluta culpa? Dolore ullam quidem dignissimos inventore id a deleniti magni vitae libero. Blanditiis voluptatem labore ratione incidunt ipsa omnis saepe ex, deleniti porro, accusamus quod ipsum corrupti quia sint dicta, molestiae natus praesentium in officia tenetur at quos iste! Odit porro, quam dolorem, est facilis sunt quas numquam maiores quae aperiam necessitatibus nihil illo quisquam ab soluta hic adipisci consequuntur? Magni ea architecto temporibus ut optio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
