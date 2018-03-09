@@ -1,0 +1,84 @@
+
+.banner-project{
+    height: 80vh;
+    background-image: url('../images/asset9.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    height: 80vh;
+    width: 100% !important;
+    position: absolute;
+    margin: 0px auto;
+
+}
+.devpic{
+    position: absolute;
+    margin-top: 15rem;
+}
+.category-title{
+    position: absolute;
+    margin-top: 12rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+    color: rgb(255, 255, 255)!important;
+}
+.navigation{
+    padding-top: 80px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #fff !important;
+    border-bottom: 3px solid #333;
+    border-radius: 0px !important;
+}
+a[data-toggle *= pill] {
+    color: #333 !important;
+}
+.techused{
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.narrative{
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    padding-bottom: 2rem;
+    max-height: 100%;
+}
+p{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    line-height: 150%;
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 2rem;
+}
+.embed-responsive {
+    position: absolute;
+    display: block;
+    width: 60vw !important;
+    height: 30rem;
+    overflow: hidden;
+    margin-left: 10rem;
+}
+.sc{
+    height: 70vh !important;
+    width: 60vw !important;
+    background-image: url('../images/asset10.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.sc2{
+    height: 70vh !important;
+    width: 60vw !important;
+    background-image: url('../images/asset11.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
