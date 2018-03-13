@@ -1,4 +1,6 @@
-
+.navbar-light .navbar-brand {
+    color: #303952;
+}
 .banner-project{
     height: 80vh;
     background-image: url('../images/asset9.jpg');

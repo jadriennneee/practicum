@@ -2,9 +2,35 @@ body{
     background-color: rgb(248, 248, 248);
 }
 .row > * { margin: 0; padding: 0 }
+#logo-main{
+    height: 2rem;
+    width: 5rem;
+}
+.overlay-banner{
+    background-color: rgba(0, 0, 0,0.6) !important;
+    height: 100vh;
+    width: 100% !important;
+    position: absolute;
+    margin: 0px auto;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: none !important;
+    border: none !important; 
+    border-radius: 0rem; 
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: none !important;
+}
 .banner{
     height: 100vh;
-    background-color: #333;
+    background-image: url('../images/asset11.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 .section-first{
     height: 100vh;
@@ -15,7 +41,7 @@ body{
     background-color: #e74c3c !important;
 }
 footer{
-    height: 50vh;
+    max-height: 5rem !important;
     background-color: rgb(255, 255, 255) !important;
 }
 .scishub-footer{
@@ -32,6 +58,7 @@ footer{
     background-image: url('../images/asset7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
 }
 .banner-overlay{
     height: 100%;
@@ -69,4 +96,15 @@ footer{
     position:relative;
     text-align:center;
     cursor:default;
+}
+#footer-divider{
+    height: 2rem !important;
+    width: 1px;
+    background-color: #95a5a6;
+    margin-left: 18rem;
+}
+.list-group-item{
+    border: none !important;
+    padding: 0;
+    list-style-type: none;
 }
