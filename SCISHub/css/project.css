@@ -84,3 +84,17 @@ p{
     background-position: top;
     background-repeat: no-repeat;
 }
+footer{
+    height: 4rem !important;
+    background-color: rgb(42, 42, 42) !important;
+}
+.vision-footer{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    color: #f8f8f8;
+}
+.copyright{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    color: #f8f8f8;
+}

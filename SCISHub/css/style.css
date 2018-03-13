@@ -6,12 +6,49 @@ body{
     height: 2rem;
     width: 5rem;
 }
+section:first-child{
+    position: absolute;
+    padding-top: 20rem !important;
+}
 .overlay-banner{
     background-color: rgba(0, 0, 0,0.6) !important;
-    height: 100vh;
+    height: 100%;
     width: 100% !important;
     position: absolute;
     margin: 0px auto;
+}
+.banner-logo{
+    height: 80vh;
+}
+.navbar-brand{
+    transition: .5s;
+}
+.banner-content{
+    max-height: 100%;
+    position: relative;
+    margin-top: 17rem; 
+}
+.intro{
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    line-height: 150%;
+}
+.vision{
+    color: rgb(248, 248, 248);
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 150%;
+
+}
+.bg-light{
+    background-color: transparent !important;
+    transition: .5s;
+}
+.bg-light .nav-collapse{
+    background-color: #333 !important;
 }
 .navbar-toggler {
     padding: .25rem .75rem;
@@ -25,33 +62,79 @@ body{
     color: rgba(0,0,0,.5);
     border-color: none !important;
 }
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 .banner{
     height: 100vh;
-    background-image: url('../images/asset11.jpeg');
+    background-image: url('../images/asset14.jpeg');
+    background-attachment: fixed;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
 .section-first{
     height: 100vh;
-    background-color: #2c3e50!important;
+    background-color: #0B0C10!important;
 }
 .section-second{
-    height: 100vh;
-    background-color: #e74c3c !important;
+    height: 120vh;
+    background-color: rgb(248, 248, 248) !important;
+}
+.section-header{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+.row-container{
+    height: 40%;
+    background-color: red;
+}
+.col1{
+    background-image: url('../images/asset19.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.col2{
+    background-image: url('../images/asset18.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.col3{
+    background-image: url('../images/asset21.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.col4{
+    background-image: url('../images/asset22.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.row-container2{
+    height: 50%;
+    background-color: #1F2833;
 }
 footer{
-    max-height: 5rem !important;
+    height: 4rem !important;
     background-color: rgb(255, 255, 255) !important;
 }
-.scishub-footer{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
-    color: #95a5a6;
+.vision-footer{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
 }
-.scis-inspire{
-    font-family: 'Montserrat', sans-serif;
+.copyright{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
 }
+
 /* PSC page */
 .banner-webApp{
     height: 80vh;
