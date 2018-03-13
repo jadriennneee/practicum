@@ -1,6 +1,10 @@
 .navbar-light .navbar-brand {
     color: #303952;
 }
+#logo-main{
+    height: 2rem;
+    width: 5rem;
+}
 .banner-project{
     height: 80vh;
     background-image: url('../images/asset9.jpg');
@@ -35,6 +39,13 @@
     background-color: #fff !important;
     border-bottom: 3px solid #333;
     border-radius: 0px !important;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 a[data-toggle *= pill] {
     color: #333 !important;
